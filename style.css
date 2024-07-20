@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+    background-color: var(--secondary-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 1 Custom CSS */
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: var(--bg-dark-blue);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+section {
+    padding: 50px 0;
+}
+.navbar {
+    position: fixed;
+    /* top: 0; */
+    z-index: 100;
+    background-color: #FFF;
+    /* border: 1px solid; */
+}
+
+.main-btn {
+    display: inline-block;
+    transition: all .4s ease-in-out;
+    padding: 6px 15px;
+    background-color: #FF9800;
+    border: none;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.94px;
+    text-decoration: none;
+}
+
+
+.header_wrapper .nav-item .nav-link {
+    position: relative;
+    font-family: Inter, sans-serif;
+    color: rgba(0, 0, 0, 0.898);
+    display:inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21.94px;
+}
+
+.navbar {
+    padding: 20px;
+
+    box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .05);
+}
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#seach {
+    font-size: 30px;
+}
+
+.class-sus1{
+    background: linear-gradient(90deg, rgba(13, 66, 61, 0.9) -22.84%, rgba(12, 199, 181, 0.9) 138.88%);
+    border-radius: 10px;
+    padding: 6rem;
+    color: #FFF;
+}
+/*  */
+
+  .class-sus{
+    background: linear-gradient(90deg, rgba(13, 66, 61, 0.9) -22.84%, rgba(12, 199, 181, 0.9) 138.88%);
+    border-radius: 10px;
+    padding: 4rem;
+    color: #FFF;
+}
+.img{
+    width: 1%;
+}
+
+
+/* section3 */
+.code{
+    width: 30%;
+}
+.left{
+    margin-left: 37%;
+}
+.lefttt{
+    margin-left: 45%;
+    margin-top: 2rem;
+}
+.fonte{
+    font-size: 60px;
+    font-weight: bold;
+}
+.text-card {
+font-size: 14px;
+line-height: 16.1px;
+letter-spacing: 6%;
+margin-top: 5rem;
+}
+.diplome , #activite{
+    background-color: #E53935;
+    color: #FFF;
+}
+.svg{
+   /* margin-bottom: -5rem !important;  */
+}
+.font{
+    font-size: 30px;
+}
+/* section6 */
+.point{
+
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: gray;
+   
+}
+
+.footer{
+    background: linear-gradient(90deg, rgba(13, 66, 61, 0.9) -22.84%, rgba(12, 199, 181, 0.9) 138.88%);
+    color: #FFF;
+
+}
