@@ -151,3 +151,13 @@ margin-top: 5rem;
     color: #FFF;
 
 }
+
+@media (max-width:768px) {
+    .btn-service {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        width: 100%;
+        font-size: 10px;
+    }
+}
